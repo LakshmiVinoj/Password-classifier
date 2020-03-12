@@ -101,5 +101,25 @@ ________________________________________________________________________________
 Returns 1 if space is absent in string n, otherwise returns 0.
     
 check_space: Str->Nat
+____________________________________________________________________________________________
+
+# Examples:
+
+>new_password() => None
+
+ Enter password : goodPass12!@@
+ 
+ Good
 
 
+>new_password() => None
+
+Enter password : fairPass !!!
+
+Fair
+
+>new_password() => None
+
+Enter password : weak12!
+
+Weak
